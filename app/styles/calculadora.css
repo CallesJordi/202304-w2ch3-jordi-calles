@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.screen{
+    width: 220px;
+    height: 45px;
+    text-align: end;
+    padding: 35px;
+    background-color: rgb(50, 47, 47);
+    color: aliceblue;
+    border-radius: 15%;
+    font-size: 30px;
+    margin: 10px 10px 25px;
+    overflow: hidden;
+    font-family: monospace;
+}
+
+.calculator{
+    background-color: rgb(92, 95, 232);
+    border-radius: 12%;
+    padding: 30px;
+    border-style:groove;
+    border-color: rgb(34, 37, 175);
+}
+
+.calculatorbuttons{
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: repeat(5, 75px); 
+    border-radius: 50%;
+}
+
+.button,.buttonoperator,.buttonac,.buttonequal,.buttondot{
+    font-size: 30px;
+}
+
+#zero{
+    grid-column: span 2;
+}
+
+input{
+    font-size: 30px;
+}
+
+#plus,#multiply,#substract,#division,#equal{
+    background-color: rgb(217, 124, 58);
+    color: aliceblue;
+}
